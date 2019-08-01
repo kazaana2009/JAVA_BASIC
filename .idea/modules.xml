@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/7.22_Study.iml" filepath="$PROJECT_DIR$/7.22_Study.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Generic_Basic/Generic_Basic.iml" filepath="$PROJECT_DIR$/Generic_Basic/Generic_Basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic_Method/Generic_Method.iml" filepath="$PROJECT_DIR$/Generic_Method/Generic_Method.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic_Method2/Generic_Method2.iml" filepath="$PROJECT_DIR$/Generic_Method2/Generic_Method2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic_muliPram/Generic_muliPram.iml" filepath="$PROJECT_DIR$/Generic_muliPram/Generic_muliPram.iml" />
+=======
+>>>>>>> 5d6f9689fa8f73ea615de64f1a8f1ebd2c3421c2
       <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstract/abstract.iml" filepath="$PROJECT_DIR$/abstract/abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstract_overiding/abstract_overiding.iml" filepath="$PROJECT_DIR$/abstract_overiding/abstract_overiding.iml" />

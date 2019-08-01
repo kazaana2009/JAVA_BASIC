@@ -7,4 +7,13 @@
    ex)_ public class 클라스명 <T>{}
          pubic interface 인터페이스명<T>{}
 
+
+제네릭 메소드
+   ex)_ public<타입파라미터> 리턴타입 메소드명(매게변수){}
+         public<T> Box><T> boxing(T t){}
+                (type)       (객체)          (리턴타입)   
+
+                
+
+
         
