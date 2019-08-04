@@ -6,7 +6,7 @@ public class Course <T>  {
 
     public Course(String name ,int capacity) {  //capacity 하나의 과목을 학생이 얼마나 수강할수있는지 ...
         this.name = name;
-        students = (T[]) new Objects[capacity]; //아직 T타입이 결정안된상태에서 오브젝트배열을 만들고 T타입으로 강제 캐스팅
+        students = (T[]) new Object[capacity]; //아직 T타입이 결정안된상태에서 오브젝트배열을 만들고 T타입으로 강제 캐스팅
     }
 
     public String getName() {

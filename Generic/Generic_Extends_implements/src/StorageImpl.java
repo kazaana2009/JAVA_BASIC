@@ -7,7 +7,7 @@ public class StorageImpl<T> implements Storage<T>{
     private T[] array;
 
     public StorageImpl(int capacity) {
-        array =(T[]) (new Objects[capacity]);
+        array =(T[]) (new Object[capacity]);
     }
 
     @Override
