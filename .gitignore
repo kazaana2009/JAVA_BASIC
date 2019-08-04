@@ -15,4 +15,6 @@
 *.iws
 *.iml
 *.ipr
+lib/
+out/
 
