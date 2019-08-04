@@ -1,0 +1,46 @@
+<Object 클래스>
+
+1.java.lang.Object 클래스는 자바 API의 모든 클래스와 사용자가 정의한 모든 클래스의 최상위 클래스이다.
+  즉, 모든 자바 클래스들은 Object 클래스로부터 상속받는다.
+
+
+2. Object 클래스의 주요 매소드
+
+   -boolean equals(Object obj)
+   -String toString()
+   -Protected Object Clone() <<객체를 복사한다.
+   -Protected void finalize() <<가비지 컬렉션 직전에 객체의 리소스를 정리할 때 호출
+   -Class getClass() << 객체의 클래스형을 반환한다.
+   -int hasgCode() << 객체의 코드값을 반환한다.
+   -void notify() << wait된 스래드 실행을 재개할 때 호출
+   -void notifyAll() << wait된 모든 스래드 실행을 재개할 때 호출
+   -void wait()
+   -void wait(long timeout) << 주어진 시간만큼 스래드를 일시적으로 중지할떄 호출
+   -void wait(long timeout, int nanos) << 주어진 시간만큼 스래드를 일시적으로 중지할떄 호출
+
+
+
+<static Method>
+
+1. static이란 
+   - 메모리에 한번 할당되어 프로그램이 종료될때 해제되는것을 의미.
+   - 기본적으로 class는 static 메모리 영역에서 생성이된다 . (New 에서 생성된 객체는 Heap영역에서 생성된다)
+   - static 영역에 할당된 메모리는 모든 객체가 공유하는 메모리이다.
+   - static 을 자주 사용하면 프로그램 종료시까지 메모리가 할당되므로 자주사용하면 시스템 퍼포먼스에 악영을 주게된다.
+
+2. Static Method
+   - static 메소드는 객체의 생성없이 허출이 가능하며, 객체에서는 호출이 불가능함.
+   - 일반적으로 유틸리티 함수는 static 메소드를 구현하는게 좋다.
+   
+3. Static 변수 & Static 메소드 활용
+   
+   - static 변수
+     일반적으로 상수들만 모아서 사용하여 상수의 변수명은 대문자와 _를 조합하여 이름을 짓는다. 또한 상속을 방지하기위해    
+     Final 로 선언한다.
+   
+   - static 매소드
+     마찬가지로 상속을 방지하기 위해 Final로 선언하고 유틸관련된 함수들을 모아둔다.
+
+ 
+
+

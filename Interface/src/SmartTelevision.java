@@ -9,7 +9,7 @@ public class SmartTelevision implements RemoteControl,Searchble{
     @Override
     public void turnOn() {
         System.out.println("TV를 킵니다.");
-;    }
+    }
 
     @Override
     public void setVolume(int volume) {
