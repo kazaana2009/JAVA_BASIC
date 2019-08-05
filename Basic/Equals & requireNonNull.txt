@@ -1,0 +1,29 @@
+1.
+equals 이란? 
+ -String에서 서로 비교해주는 함수
+ -null에 대한 방어를 위해 자주 사용하는 코드로도 많이 사용한다.
+
+Ex_) 
+Public void method(String str1, String str2){
+   if(str1 != null && str1.equals(str2){
+  
+  }
+}
+
+-str2는 인자로 활용되기 때문에 null 체크를 굳이 할 필요가 없지만 메소드 호출객체인 str1이 null이면
+ NPE(널포인트 입셋션) 이 발생.
+
+-만약 str1 혹은 str2가 null체크를 해주면 다음과 같은 코드를 적용해주자
+  
+  Objects.equals()
+
+Ex_)
+Public void method(String str1, String str2){
+   if(Objects.equals(str1, str2){
+  
+  }
+}
+
+2.
+requireNonNull 이란?
+인자의 null 체크를 해주고 null이 아닐시 그대로 반환 null일경우 NPE를 발생시킨다.
