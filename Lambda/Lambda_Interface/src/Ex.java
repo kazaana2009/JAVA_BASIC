@@ -9,7 +9,7 @@ public class Ex {
 //
 //        Thread thread = new Thread(runnable);
 //        thread.run();
- 
+
         Thread thread = new Thread(()->{
             for(int i=0;i<10;i++){
             System.out.println("i: "+i);

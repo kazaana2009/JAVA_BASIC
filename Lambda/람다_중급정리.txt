@@ -7,13 +7,31 @@
 -Consumer 함수적 인터페이스
     매개값이 있고 리턴값이 없는 추상 메소드
     
+    => Consumer <String> consumer =t -> {t를 소비하는 실행문}. //t는 제네릭으로 String 으로 정의했기
+       때문에 문자여야한다.
+    => Bi(2)Consumer <Stinrg,String> consumer =(t,y) -> {t,y를 소비하는 실행문}. /외부로부터 2개의
+       값을 받아오는...
+    => DoubleConsume consumer =>d {d를 소비하는 실행문}
+    => ObjIntConsumer <String> consumer =(t,i) ->{t ,i 소비하는 실행문} 
+       //즉 t는매개타입이 String  i의 매개타입은 int 를 사용함.s 
+
+
 -supplier 함수적 인터페이스
     매개값이 없고 리턴값만 있는 추상 메소드
-
+    //외부로 값을 전달해주는
+    => Supplier <String> supplier =()->{..return 문자열}
+       String 은 리턴타입.
+ 
 -Function 함수적 인터페이스
     A->B 의미를 말한다. 매개값과 리턴값이 모드있는 추상메소드
     주로 매개값을 리턴값으로 매핑(타입변환)할 경우에 사용
     Ex) "10". -->. 10
+
+   => Function <Student ,String> function= t->{return t.getName();} //t는 Student.
+		*Student 는 매개타입 String 은 리턴타입!  *
+  
+   => ToIntFunction <Student> function = t->{t.getScore();}
+                *Student 를 매개값을 받고 리턴값은 Int
 
 -Operator 함수적 인터페이스
     매개값과 리턴값이 모두 있는 추상메소드
